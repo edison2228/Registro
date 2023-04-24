@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="inicio" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtDato" Placeholder="Ingrese un dato"/>
+            <Entry x:Name="txtDatodos" Placeholder="Ingrese un dato2"/>
+            <Button x:Name="btnAbrir" Text="Abrir Ventana dos" Clicked="btnAbrir_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
